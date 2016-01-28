@@ -1,0 +1,14 @@
+<p> Lists </p>
+<table>
+<tr>
+<td> column 1</td> <td> column 2</td></tr>
+<% @articles.each do |article| %>
+<tr>
+<td><%=article.title %></td>
+<td><%=article.text %></td>
+</tr>
+<% end %>
+</table>
+
+
+<%= link_to 'My Blog', new_article_path %>

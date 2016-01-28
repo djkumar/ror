@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+img{
+	  border:none;
+    outline:none
+	}
+	
+
+	
+/*.login_container .form_control
+	{
+		width:100%;
+		behavior: none;	
+	}*/
+
+	
+/*	
+div {
+
+-moz-border-radius: 5px;
+
+-webkit-border-radius: 5px;
+
+border-radius: 5px;
+
+behavior: url(PIE.htc)
+
+}
+*/
+
+/*.form_control{
+	behavior: none;
+	}
+.btn
+{
+	behavior: none;
+}
+
+
+.top_nav_search_btn a {
+	  border:none;
+	}*/
+
+/*a img { border: 0; }
+
+a { outline: none; }
+
+a img {
+ border:none;
+}
+
+img {text-decoration: none; border: 0px}
+
+a{border:none}*/
+
+
+/*.user_reg_container .primary{
+	font-size:12px;
+	
+}
+
+.table_style1 tr:nth-child(odd){
+	background:#f3f3f3;
+	}
+.table_style1 tr:nth-child(even){
+	background:#e8e8e8;
+	}
+.icon_btn{
+	behavior: none;
+	}	
+.btn_utility{	
+	behavior: none;
+	}	
+.utility_secondary{
+	
+	behavior: none;
+	}*/
+.error_msg{
+	background:#7c2230;
+}
+.error_msg:before{
+	color:#7c2230;
+}
+.category_carousel_container{
+	background:url(../images/ie8_transferent_bg.png);
+	}
+.custombox-overlay{
+	background:#000 !important;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)" !important;
+	}
+.sm_ie8_last_ele:after{
+	display:none;
+	}
+.exchange_bundle_tabs .buttonNext{
+	background:#fff;
+	}
+.cart_items_list{
+	 progid:DXImageTransform.Microsoft.gradient(startColorstr=#88000000,endColorstr=#88000000); 
+	}
+.cart_view_btn{
+	background:#00687f !important;
+	}
+	
+.cart_view_btn:hover{
+	background:#005467 !important;
+}
+.cart_items_list{border:2px solid #d8d8d8;width:364px; }
+.submenu{border:2px solid #d8d8d8;width:204px; }
+.vertical_dropdown{border:2px solid #d8d8d8;width:284px; }	
+.large_submenu{border:2px solid #d8d8d8;width:944px; }	
+.my-placeholder{
+	color:#d8d8d8;
+	}
+.form_control{
+	line-height:44px;
+	}
+.irs-from, .irs-to, .irs-single{
+	background:#00687f !important;
+	}
+	
+	
+	

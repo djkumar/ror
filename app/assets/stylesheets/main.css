@@ -1,0 +1,589 @@
+@charset "utf-8";
+
+.topbar{
+	height:40px;
+	float:left;
+	width:100%;
+	background:#00687f;
+	}
+.top_navbar{
+	float:right;
+	}
+.top_navbar li{
+	font-size:15px;
+	color:#fff;
+	float:left;
+	list-style:none;
+	padding:0 10px;
+	line-height:40px;
+	}
+.top_navbar li a{
+	color:#fff;
+	text-decoration:none;
+}
+.top_navbar li:last-child{
+	padding-right:0;
+}
+.top_nav_search_btn a{
+	float:left;
+	margin-top:3px;
+	}
+.mainHeader{
+	width:100%;
+	float:left;
+	background:#fff;
+	height:92px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	}
+.logo{
+	float:left;
+	font-size:30px;
+	color:#00687f;
+	font-weight:700;
+	text-transform:uppercase;
+	line-height:92px;
+	}
+.header_rip_container{
+	width:100%;
+	float:left;
+	padding:20px 0;
+}
+.main_form_container{
+	width:100%;
+	float:left;
+	padding:25px 0;
+	}
+.main_form{
+	width:100%;
+	float:left;
+	}
+.form_group{
+	width:100%;
+	float:left;
+	margin-bottom:10px;
+	}
+.form_label{
+	width:100%;
+	float:left;
+	margin-bottom:5px;
+	}
+.large_filed_container{
+	width:600px;
+	float:left;
+	padding-right:20px;
+	}
+.medium_filed_container{
+	width:300px;
+	float:left;
+	padding-right:20px;
+	}
+.small_filed_container{
+	width:200px;
+	float:left;
+	padding-right:20px;
+	}
+.dropdown_container{
+	width:100%;
+	float:left;
+	}
+textarea.form_control{
+	width:100%;
+	float:left;
+	height:100px;
+	}
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+	margin-left:0;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.main_form_btns_container{
+	width:100%;
+	float:left;
+	border-top:1px solid #d8d8d8;
+	padding:25px 0;
+	padding-bottom:0;
+	}
+.btns_wrapper{
+	float:right;
+	}
+.footer{
+	border-top:1px solid #d8d8d8;
+	}
+.warpper620{
+	width:610px;
+	margin:0 auto;
+	}
+.form_group span
+{
+	font-size:14px;	
+	color:#737373;
+}
+/*date of birth control*/
+.dob_container{
+ width:100%;
+ float:left;
+ }
+.month{
+ float:left;
+ width:30%;
+ height:40px;
+ border:2px solid #d8d8d8;
+ border-right:none;
+ border-radius:50px 0 0 50px;
+ text-align:center;
+ font-size: 18px;
+ padding:10px;
+         
+ }
+.day{
+ float:left;
+ width:30%;
+ height:40px;
+ border:2px solid #d8d8d8;
+ border-right:none;
+ border-radius:0 0 0 0;
+ text-align:center;
+ font-size: 18px;
+ border-left:none;
+ padding:10px;
+ }
+.year{
+ float:left;
+ width:40%;
+ height:40px;
+ border:2px solid #d8d8d8;
+ border-radius:0 50px 50px 0;
+ text-align:center;
+ font-size: 18px;
+ border-left:none;
+ padding:10px;
+ }
+.month:focus, .day:focus, .year:focus{
+ -moz-box-shadow:    inset 0 0 1px #9E9E9E;
+   -webkit-box-shadow: inset 0 0 1px #9E9E9E;
+   box-shadow: inset 0 0 1px #9E9E9E;
+   
+   border:2px solid #00687f;
+ 
+ }
+/*date of birth control*/
+/* HRIS*/
+
+.ex_banner{
+	width:100%;
+	float:left;
+	height:450px;
+	background:url(../images/banners/slider1.jpg) no-repeat right center;
+	position:relative;
+	}
+	.ex_banner_content{
+	width:500px;
+	float:left;
+	}
+.ex_banner_content h5{
+	font-size:42px;
+	line-height:58px;
+	color:#fff;
+	font-weight:600;
+	width:100%;
+	text-align:center;
+	margin-top:60px;
+	}
+.ex_banner_content p{
+	width:100%;
+	text-align:center;
+	font-size:24px;
+	color:#fff;
+	}
+	.banner_btn{
+	height:70px;
+	width:238px;
+	position:relative;
+	left:50%;
+	margin-left:-118px;
+	border-radius:50px;
+	line-height:70px;
+	font-weight:700;
+	font-size:24px;
+	margin-top:15px;
+	behavior: url(htc/PIE.htc);
+	}
+	.btn_primary{
+	background:#00687f;
+	font-size:24px;
+	font-weight:600;
+	color:#fff;
+	}
+.btn_primary:hover{
+	background:#005467;
+	color:#fff;
+}
+.btn{
+	height:60px;
+	width:200px;
+	float:left;
+	}
+.btn{
+	width:200px;
+	height:60px;
+	-webkit-border-radius: 30px; -moz-border-radius: 30px; border-radius: 30px;
+	float:left;
+	line-height:60px;
+	border:none;
+	cursor:pointer;
+	text-align:center;
+	behavior: url(htc/border-radius.htc);
+	}
+	.category_carousel_container{
+	width:100%;
+	float:left;
+	position:absolute;
+	bottom:0;
+	height:145px;
+	left:0;
+	background:rgba(0,104,127,0.8);
+	}
+	.category_carousel_wrapper{
+	width:900px;
+	float:left;
+	margin-left:30px;
+	position:relative;
+	}
+	.shop_carriers_section{
+	width:100%;
+	float:left;
+	padding-top:25px;
+	padding-bottom:25px;
+	}
+	.pattern_bg{
+	background:url(../images/background_pattern.jpg) repeat;
+	}
+	.main_section_header{
+	width:100%;
+	float:left;
+	text-align:center;
+	font-size:34px;
+	font-weight:600;
+	color:#00687f;
+	text-transform:uppercase;
+	}
+	.main_section_text{
+	font-size:24px;
+	color:#737373;
+	text-align:center;
+	width:100%;
+	float:left;
+	margin-top:5px;
+	}
+	.shop_carriers{
+	float:left;
+	width:100%;
+	margin-top:30px;
+	}
+	.shop_carrier_container{
+	width:100%;
+	float:left;
+	background:#fff;
+	border:1px solid #d8d8d8;
+	height:auto;
+	margin-bottom:25px;
+	padding-bottom:15px;
+	}
+	.shop_carrier_logo{
+	height:75px;
+	width:300px;
+	border-bottom:1px solid #d8d8d8;
+	display: table-cell;
+	text-align:center;
+	vertical-align:middle;
+	}
+	.shop_carrier_price_container{
+	width:100%;
+	float:left;
+	}
+.shop_carrier_price_container p{
+	font-size:24px;
+	color:#ababab;
+	width:100%;
+	text-align:center;
+	}
+.shop_carrier_price_container h5{
+	width:100%;
+	float:left;
+	text-align:center;
+	color:#aaad00;
+	font-weight:700;
+	font-size:60px;
+	}
+.shop_carrier_price_container p.plan_starts{
+	margin-top:15px;
+	}
+	shop_carrier_price_container p.plan_starts{
+	margin-top:15px;
+	}
+	.carrier_shop_btn{
+	position:relative;
+	width:358px;
+	height:70px;
+	border-radius:40px;
+	font-weight:700;
+	line-height:70px;
+	left:50%;
+	margin-left:-179px;
+	}
+	.shop_guidance_section{
+	width:100%;
+	float:left;
+	padding:25px 0;
+	}
+
+
+.shop_guidance_section h1{
+	margin-bottom:15px;
+	}
+.full_row{
+	width:100%;
+	float:left;
+	}
+.shop_guidance_section p{
+	width:100%;
+	text-align:center;
+	line-height:28px;
+	}
+	.title_header{
+	width:100%;
+	text-align:center;
+	color:#00687f;
+	font-size:36px;
+	font-weight:700;
+	margin:0;
+	}
+	.full_row{
+	width:100%;
+	float:left;
+	}
+	.check_qualification_section{
+	width:100%;
+	float:left;
+	background:#00687f;
+	padding:28px 0;
+	}
+	.relative_container{
+	position:relative;
+	}
+	.check_qualification{
+	width:540px;
+	float:left;
+	position:relative;
+	left:50%;
+	margin-left:-270px;
+	padding-left:100px;
+	}
+.check_qualification .check_qualification_icon{
+	float:left;
+	margin-left:-100px;
+	}
+.check_qualification .check_qualification_txt{
+	width:100%;
+	float:left;
+	font-size:30px;
+	color:#fff;
+	font-weight:700;
+	line-height:36px;
+	}
+	.check_qualification .check_qualification_icon{
+	float:left;
+	margin-left:-100px;
+	}
+.check_qualification .check_qualification_txt{
+	width:100%;
+	float:left;
+	font-size:30px;
+	color:#fff;
+	font-weight:700;
+	line-height:36px;
+	}
+	.shop_guidance_section h4{
+    margin-bottom: 30px;
+}
+.featured_carriers_section{
+	width:100%;
+	float:left;
+	padding:40px;
+	background:#f0f0f0;
+	}
+	.title_sub_header {
+    float: left;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 20px;
+    text-align: center;
+    width: 100%;
+	color:#474747
+}
+.featured_carriers_logos{
+	width:100%;
+	float:left;
+	padding:0;
+	margin:0;
+	padding-left:30px;
+	}
+	.featured_carriers_logos li{
+	list-style:none;
+	float:left;
+	width:25%;
+	}
+	.footer_home{
+	width:100%;
+	float:left;
+	background:#00687f;
+	padding:25px 0;
+	}
+	.cprt_txt{
+	width:100%;
+	float:left;
+	font-size:13px;
+	color:#fff;
+	margin-bottom:5px;
+	}
+	.footer_nav{
+	width:100%;
+	float:left;
+	padding:0;
+	margin:0;
+	}
+.footer_nav li{
+	float:left;
+	list-style:none;
+	margin-right:20px;
+	}
+.footer_nav li a{
+	color:#fff;
+	font-size:14px;
+	font-weight:700;
+}
+.footer_logo_home{
+	width:100%;
+	float:left;
+	text-align:right;
+	margin-bottom:10px;
+	}
+	.aboutus_banner{
+	background:url(../images/aboutus.jpg) no-repeat left top;
+	}
+	.banner_section{
+	width:100%;
+	float:left;
+	height:450px;
+	background:url(../images/slider1.jpg) right top no-repeat;
+	position:relative;
+	}
+	.banner_welcome_section{
+	width:600px;
+	height:100%;
+	float:left;
+	position:absolute;
+	right:0;
+	top:0;
+	background:rgba(0,104,127,0.70);
+	padding:50px;
+	}
+	.welcome_content{
+	width:100%;
+	float:left;
+	margin-top:110px;
+	}
+.welcome_content h1{
+	font-family: 'Open Sans', sans-serif;
+	width:100%;
+	float:left;
+	text-align:center;
+	color:#fff;
+	font-size:30px;
+	font-weight:700;
+	}
+.welcome_content p{
+	width:100%;
+	text-align:center;
+	color:#fff;
+	font-size:18px;
+	font-weight:400;
+	margin-bottom:20px;
+}
+.visit_plans_btn{
+	width:270px;
+	float:left;
+	height:50px;
+	border-radius:50px;
+	font-size:20px;
+	font-weight:700;
+	color:#fff;
+	background:#7c2230;
+	text-align:center;
+	line-height:50px;
+	margin-top:30px;
+	position:relative;
+	left:50%;
+	margin-left:-135px;
+	}
+.visit_plans_btn:hover, .visit_plans_btn:focus{
+	color:#fff;
+	text-decoration:none;
+	}
+	.our_words{
+	width:100%;
+	float:left;
+	padding:0;
+	padding-bottom:40px
+	}
+	.hrline{
+	margin-bottom:40px;
+	}
+	.ourwords_htxt{
+	width:100%;
+	float:left;
+	text-align:center;
+	margin:10px 0 30px 0;
+	font-size:18px;
+	font-weight:700;
+	}
+.error_msg::before {
+    color: rgba(124, 34, 48, 0.8);
+    content: "▲";
+    float: left;
+    left: 20px;
+    position: absolute;
+    top: -13px;
+}
+.error_msg {
+    background: rgba(124, 34, 48, 0.8) none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #fff !important;
+    display: none;
+    font-size: 14px;
+    left: 0;
+    line-height: 20px;
+    padding: 10px;
+    position: relative;
+    top: 100%;
+    width: 100%;
+    z-index: 10;
+	
+}
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}

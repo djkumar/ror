@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+@media (max-width: 979px) {
+	.main_section_text{
+	font-size:22px;
+	}
+	.shop_carrier_logo{
+	width:100%;
+	padding:0 20px;
+	}
+.shop_carrier_logo img {
+	width:100%;
+}
+	
+	}
+@media (max-width: 768px) {
+	#cssmenu{
+		position:absolute !important;
+		top:28px;
+		
+		}
+	#cssmenu ul{
+		background:#00687f;
+		}
+	#menu-button{
+		float:right;
+		}
+	#cssmenu ul{
+		width:100%;
+		float:left;
+		}
+	#cssmenu > ul > li > a{
+		height:auto !important;
+		line-height:20px !important;
+		padding:10px !important;
+		color:#FFFFFF !important
+		}
+	.warpper620{
+		width:auto;
+		}
+		.main_section_text {
+    font-size: 15px;
+}
+.shop_carrier_container{
+	height:auto;
+	padding-bottom:20px;
+	}
+	.shop_carrier_price_container p.plan_starts{
+	margin-top:20px;
+	}
+.shop_carrier_price_container h5{
+	 font-size:40px;
+	}
+.shop_carrier_price_container p{
+	font-size:18px;
+	}
+	.shop_guidance_section p{
+	font-size:14px;
+	}
+	.title_header{
+	font-size:20px;
+	margin-bottom:10px;
+	}
+	.cprt_txt{
+		font-size:14px;
+		text-align:center;
+		}
+		.footer_nav{
+		margin:20px 0;
+		}
+	.footer_nav li{
+		margin:0;
+		width:33.33%;
+		}
+	.footer_nav li a{
+		font-size:18px;
+		width:100%;
+		text-align:center;
+		float:left;
+		}
+		.welcome_content h1{
+	font-size:20px;
+	}
+.welcome_content p{
+	font-size:14px;
+	}
+	.banner_welcome_section{
+		position:absolute;
+		width:100%;
+		height:auto;
+		padding:30px 0 40px 0;
+		bottom:0;
+		top:auto;
+		}
+		.banner_welcome_section{
+	padding:20px 0;
+	}
+#cssmenu > ul > li {
+    float: left !important;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+	}
+@media (max-width: 629px) {
+	.large_filed_container{
+	width:100%;
+	
+	}
+.medium_filed_container{
+	width:100%;
+	}
+.small_filed_container{
+	width:100%;
+	}
+#cssmenu #menu-button{
+	margin-right:0px;
+	}
+.main_form_btns_container .btn {
+    border: medium none;
+    border-radius: 30px;
+    cursor: pointer;
+    float: left;
+    font-size: 17px !important;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 135px;
+}
+.ex_banner_content{
+	width:auto;
+	}
+.ex_banner_content h5{
+	font-size:24px;
+	line-height:30px;
+	float:left;
+	width:auto !important;
+	background:rgba(0,104,127,.6);
+	padding:10px;
+	text-align:left;
+	}
+
+.ex_banner_content p {
+    color: #fff;
+    float: left;
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+}
+.banner_btn {
+    font-size: 18px;
+    font-weight: 600;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 0;
+    margin-top: 15px;
+    position: static;
+    width: 150px;
+}
+.shop_carrier_logo img{
+	width:auto;
+	}
+.shop_carrier_logo{
+	width:600px;
+	}
+	.check_qualification{
+		width:100%;
+		text-align:center;
+		padding:0;
+		margin:0;
+		left:0;
+		}
+	
+.check_qualification .check_qualification_txt {
+    color: #fff;
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    width: 100%;
+}
+.check_qualification .check_qualification_icon{
+	width:100%;
+	margin-left:0;
+	text-align:center;
+	margin-bottom:10px;
+	}
+	.featured_carriers_logos li{
+		width:50%;
+		margin-bottom:20px;
+		}
+		.cprt_txt{
+	text-align:center !important;
+	}
+	.footer_logo_home{
+		text-align:center;
+		}
+	}
+@media (max-width: 479px) {
+	.ex_banner_content h5{
+	font-size:18px;
+	}
+.ex_banner_content p{
+	font-size:16px;
+	}
+	.main_section_header {
+    font-size: 20px;
+}
+.featured_carriers_logos{
+	padding:0;
+	}
+.featured_carriers_logos li{
+		width:100%;
+		margin-bottom:20px;
+		text-align:center
+		}
+	
+	}
+
